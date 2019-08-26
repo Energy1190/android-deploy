@@ -11,4 +11,5 @@ RUN mkdir -p /android \
     && unzip /src/android-ndk-r20-linux-x86_64.zip -d /android/ndk \
     && unzip /src/sdk-tools-linux-4333796.zip -d /android/sdk 
 
+ADD ./requirements.txt /requirements.txt
 RUN pip install -r requirements.txt
