@@ -1,4 +1,4 @@
-FROM: python:3.7
+FROM python:3.7
 
 RUN apt-get update \
     && apt-get install -y openjdk-11-jdk openjdk-11-jre
